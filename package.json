@@ -22,5 +22,5 @@
     "passport": "^0.6.0",
     "passport-local": "^1.0.0"
   },
-  "proxy": "http://localhost:3000"
+  "proxy": "https://main--preeminent-twilight-25dd13.netlify.app/"
 }
