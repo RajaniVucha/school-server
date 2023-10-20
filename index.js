@@ -8,7 +8,11 @@ const bodyParser = require("body-parser");
 const port = process.env.PORT || 3000;
 
 // Allow requests from localhost:3001
+<<<<<<< HEAD
 app.use(cors({ origin: "http://localhost:3001/" }));
+=======
+app.use(cors({ origin: "https://school-cool.netlify.app/" }));
+>>>>>>> fd713b5cc2e214485bd9e7568c0563b32757f068
 
 app.use(bodyParser.json()); // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
